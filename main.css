@@ -41,11 +41,33 @@ header .navbar .button a{
     padding: 50px 10px ;
     transition: 0.4s;
 }
-header .navbar .menu a:hover{
-    color: brown;
-}
 header .navbar .button a:hover{
     background-color: transparent;
     color: brown;
     border: 1px solid brown;
+}
+.caption{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+.education{
+    color: white;
+    margin-bottom: -50px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    font-size: 4em;
+    color: indianred;
+}
+h1 span{
+    color: white;
+}
+p{
+    font-size: 20px;
+    margin-top: -30px;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
