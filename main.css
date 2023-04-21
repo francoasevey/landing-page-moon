@@ -3,14 +3,14 @@ body{
     padding: 0;
 }
 header{
-    background: url("/images/");
+    background: url("/images/pxfuel.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
 }
 header .navbar{
     width: 100%;
-    height: 100%;
+    height: 100px;
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -18,54 +18,55 @@ header .navbar{
     padding-top: 20px;
     font-family: cursive;
 }
-header .navbar .logo{
+header .navbar .logo {
     font-size: 25px;
 }
-header .navbar .menu a{
+header .navbar .menu a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
     font-size: 17px;
     transition: 0.4s;
 }
-header .navbar .menu a:hover{
+header .navbar .menu a:hover {
     color: brown;
     border-bottom: 1px solid brown;
 }
-header .navbar .button a{
+header .navbar .button a {
     text-decoration: none;
     color: white;
     font-size: 17px;
     border: 1px solid white;
     border-radius: 5px;
-    padding: 50px 10px ;
+    padding: 5px 10px ;
+    background-color: brown;
     transition: 0.4s;
 }
-header .navbar .button a:hover{
+header .navbar .button a:hover {
     background-color: transparent;
     color: brown;
     border: 1px solid brown;
 }
-.caption{
+.caption {
     margin-top: 70px;
     text-align: center;
     color: white;
 }
-.education{
+.education {
     color: white;
     margin-bottom: -50px;
     letter-spacing: 5px;
     font-size: 20px;
     font-weight: bold;
 }
-h1{
+h1 {
     font-size: 4em;
     color: indianred;
 }
-h1 span{
+h1 span {
     color: white;
 }
-p{
+p {
     font-size: 20px;
     margin-top: -30px;
     font-weight: bolder;
